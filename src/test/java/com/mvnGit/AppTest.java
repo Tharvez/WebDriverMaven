@@ -28,6 +28,7 @@ public class AppTest {
 		Thread.sleep(10L);
 		driver.findElement(By.id("login1")).sendKeys("abdulhakeem.h@gmail.com");
 		driver.findElement(By.id("password")).sendKeys("abcd");
+		driver.findElement(By.xpath("html/body/div[1]/div[2]/div[2]/div[1]/div/form/div/div[6]/div[1]/input")).click();
 		
 }
 
