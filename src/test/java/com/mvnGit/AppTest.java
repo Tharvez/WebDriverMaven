@@ -38,7 +38,7 @@ public class AppTest {
 		 
 }
 
-	// tear down method
+	// tear down method --- comments
 	@AfterSuite
 	public void tearDown(){
 		driver.quit();
