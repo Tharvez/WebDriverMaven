@@ -21,6 +21,7 @@ public class AppTest {
 		
 	}
 	
+	//Test Method ---main script
 	@Test
 	public void doLogin() throws InterruptedException{
 		driver.get("http://www.rediff.com/");
